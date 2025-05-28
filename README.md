@@ -11,10 +11,11 @@ I started by creating two Azure VMs in the same resource group and virtual netwo
 
 <table>
   <tr>
-    <td><img src="https://i.imgur.com/a3zOYez.png" alt="Image 1" width="300"/></td>
-    <td><img src="https://i.imgur.com/SkwWDSC.png" alt="Image 2" width="300"/></td>
+    <td><img src="https://i.imgur.com/yourFirstImage.png" alt="Image 1" width="300"/></td>
+    <td><img src="https://i.imgur.com/yourSecondImage.png" alt="Image 2" width="300"/></td>
   </tr>
 </table>
+
 
 
 ### Part 2: Connecting to My VMs 🔐
