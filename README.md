@@ -1,5 +1,8 @@
 ## Azure DNS 🧪 Lab: Setup and Exploration 🚀
 
+![r79LEht](https://github.com/user-attachments/assets/0866896c-df33-43b2-b439-fa973e589a69)
+
+I built this DNS lab to get hands-on practice with DNS concepts ahead of my CompTIA A+ exam certification. Setting up and querying DNS servers helped me understand how name resolution works and prepared me for real-world troubleshooting.
 
 ### Part 1: Setting Up Azure Virtual Machines 🖥️
 I started by creating two Azure VMs in the same resource group and virtual network for easy communication. The first VM is a Linux server (dns-linux-lab-vm) that will eventually host the DNS server software BIND9. The second VM is a Windows client (win-client-lab-vm) that I will use to simulate DNS client queries and test responses. I made sure to open SSH (port 22) on the Linux VM and RDP (port 3389) on the Windows VM so I can connect to them remotely.
