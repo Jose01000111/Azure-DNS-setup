@@ -31,12 +31,24 @@ Once both VMs were up and running, I connected to the Linux server via SSH using
 ### Part 3: Installing DNS Utilities on Linux and Testing 🧰
 On the Linux VM, I installed essential DNS utilities like dig, host, and nslookup to perform DNS lookups from the command line. These tools helped me query public DNS servers and understand how DNS resolution works in practice. For example, I used dig google.com to see detailed DNS response data and learned how to read the answers, authority, and additional sections in the output.
 
+![HXdIX8o](https://github.com/user-attachments/assets/2b106855-b1b2-449c-a46b-1ea1252316b6)
 
+![WUUo5lg](https://github.com/user-attachments/assets/e4ccfe3d-50b9-4360-b474-668ed2a00c0f)
+
+![KkIPVlY](https://github.com/user-attachments/assets/0c5c89aa-d49d-43ce-b651-7c4c24a2aa85)
+
+![PjDrWRA](https://github.com/user-attachments/assets/9210fa9e-d8b1-4dad-a387-e1b4d44bcb85)
+
+![LHnma0m](https://github.com/user-attachments/assets/c01779e4-60b2-4d35-ae2c-a5ec5789ca04)
+
+![VQ5ESxV](https://github.com/user-attachments/assets/7d3b30bb-cd16-4635-a323-0d989873300c)
 
 ### Part 4: Querying Non-Existent DNS Records and Understanding Errors 🔍
 Since I hadn’t set up any DNS zones yet, I experimented by querying DNS records that don’t exist on my local DNS server using dig. This helped me observe common DNS errors like NXDOMAIN (domain not found), SERVFAIL (server failure), and REFUSED (query refused). These error messages gave me valuable insight into DNS troubleshooting and what happens when a DNS server cannot resolve a query.
 
+![XweUAhH](https://github.com/user-attachments/assets/0410d56f-170b-4d12-9ebe-a40ca9233e0c)
 
+![hhxUhmM](https://github.com/user-attachments/assets/418f0a12-8d53-4395-84bb-a62c4934c088)
 
 ### What I Learned 📚
 How to set up and connect to Azure VMs securely via SSH and RDP.
