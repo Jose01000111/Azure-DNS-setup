@@ -1,6 +1,8 @@
 ## Azure DNS 🧪 Lab: Setup and Exploration 🚀
 
-![r79LEht](https://github.com/user-attachments/assets/0866896c-df33-43b2-b439-fa973e589a69)
+<p align="center">
+<![r79LEht](https://github.com/user-attachments/assets/0866896c-df33-43b2-b439-fa973e589a69) />
+</p>
 
 I built this DNS lab to get hands-on practice with DNS concepts ahead of my CompTIA A+ exam certification. Setting up and querying DNS servers helped me understand how name resolution works and prepared me for real-world troubleshooting.
 
