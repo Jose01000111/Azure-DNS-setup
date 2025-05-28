@@ -22,7 +22,9 @@ I started by creating two Azure VMs in the same resource group and virtual netwo
 ### Part 2: Connecting to My VMs 🔐
 Once both VMs were up and running, I connected to the Linux server via SSH using the username azureuser and the IP address 20.80.104.60. For the Windows client, I used Remote Desktop to connect with the username JGadmin and IP 20.221.58.49. Having access to both machines allowed me to start configuring tools and testing DNS queries between them.
 
+![jNt1XGl](https://github.com/user-attachments/assets/0136726a-f6e6-40f5-947b-abc9584f07a3)
 
+![VDeLrAH](https://github.com/user-attachments/assets/410a3cdf-66eb-43b9-915f-75facb74bd60)
 
 
 
