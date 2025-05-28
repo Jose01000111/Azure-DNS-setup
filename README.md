@@ -9,15 +9,9 @@
 ### Part 1: Setting Up Azure Virtual Machines 🖥️
 I started by creating two Azure VMs in the same resource group and virtual network for easy communication. The first VM is a Linux server (dns-linux-lab-vm) that will eventually host the DNS server software BIND9. The second VM is a Windows client (win-client-lab-vm) that I will use to simulate DNS client queries and test responses. I made sure to open SSH (port 22) on the Linux VM and RDP (port 3389) on the Windows VM so I can connect to them remotely.
 
-<table>
-  <tr>
-    <td><img src="https://i.imgur.com/4sOVoL7.png" alt="Image 1" width="300"/></td>
-    <td><img src="https://i.imgur.com/SkwWDSC.png" alt="Image 2" width="300"/></td>
-  </tr>
-</table>
+![SkwWDSC](https://github.com/user-attachments/assets/79727582-4d9e-47c6-8489-18a783ab275e)
 
-
-
+![SrJMPOk](https://github.com/user-attachments/assets/4536c59e-4534-4be0-b167-b92739b4b10a)
 
 ### Part 2: Connecting to My VMs 🔐
 Once both VMs were up and running, I connected to the Linux server via SSH using the username azureuser and the IP address 20.80.104.60. For the Windows client, I used Remote Desktop to connect with the username JGadmin and IP 20.221.58.49. Having access to both machines allowed me to start configuring tools and testing DNS queries between them.
